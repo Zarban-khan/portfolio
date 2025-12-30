@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Zarban Khan - Full Stack Developer Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Portfolio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block rounded-3">
+                <h1 class="fw-bold m-0">Portfolio</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Zarban Khan</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Full Stack Developer, Web Developer, Front End Developer</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="" class="btn btn-primary py-3 px-5 me-5 shadow-lg">Download CV</a>
+                        <button type="button" class="btn-play shadow-lg" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block fw-bold">Play Video</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img class="img-fluid rounded-4" src="img/zarban.jpeg" alt="Zarban Khan - Full Stack Developer">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 rounded-4" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); pointer-events: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">2</h1>
+                            <h5 class="mb-0">Years</h5>
+                        </div>
+                        <h3 class="lh-base mb-0">of working experience as a web designer & developer</h3>
+                    </div>
+                    <p class="mb-4 fs-5">I am a passionate Full Stack Developer with expertise in both front-end and back-end technologies. My journey in web development has been driven by a commitment to creating innovative, efficient, and user-friendly digital solutions. I specialize in building responsive web applications using modern frameworks and technologies, ensuring optimal performance and seamless user experiences across all platforms.</p>
+                    <p class="mb-3 fs-5"><i class="far fa-check-circle text-primary me-3 fs-4"></i>Affordable Prices</p>
+                    <p class="mb-3 fs-5"><i class="far fa-check-circle text-primary me-3 fs-4"></i>High Quality Solutions</p>
+                    <p class="mb-3 fs-5"><i class="far fa-check-circle text-primary me-3 fs-4"></i>On Time Project Delivery</p>
+                    <a class="btn btn-primary py-3 px-5 mt-3 shadow-lg" href="">Read More</a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">12</h2>
+                    </div>
+                    <p class="mb-4">Building strong relationships with clients is at the heart of my work. I take pride in delivering solutions that not only meet but exceed expectations, resulting in satisfied clients who trust me with their projects and return for future collaborations.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">12</h2>
+                    </div>
+                    <p class="mb-0">Throughout my career, I have successfully completed numerous projects ranging from simple websites to complex full-stack applications. Each project has been an opportunity to learn, grow, and deliver innovative solutions that make a real impact.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">With years of hands-on experience in web development, I have mastered a diverse range of technologies and frameworks. My expertise spans from front-end design and development to back-end programming, enabling me to create comprehensive, scalable, and user-friendly web applications. I continuously stay updated with the latest industry trends and best practices to deliver high-quality solutions that meet modern web standards.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Bootstrap</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Javascript</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">React JS</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Django</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Front End Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2022 - 2023</p>
+                                    <h6 class="mb-0">SeeBiz PVT LTD</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Front End Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2023 - 2024</p>
+                                    <h6 class="mb-0">ISOFTSTUDIOS</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Full Stack Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2024 - 2025</p>
+                                    <h6 class="mb-0">Projectz.io</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Matriculation</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2014 - 2016</p>
+                                    <h6 class="mb-0">The Educators School</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Intermediate</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2016 - 2018</p>
+                                    <h6 class="mb-0">Government Degree College </h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Bachelor of Computer Science</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2018 - 2022</p>
+                                    <h6 class="mb-0">Government College University Faisalabad</h6>
+                                </div>
+                                <!-- <div class="col-sm-6">
+                                    <h5>Apps Design</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2000 - 2045</p>
+                                    <h6 class="mb-0">Cambridge University</h6>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Services</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Hire Me</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Creative Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Graphic Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Web Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">UI/UX Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-12">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Skoleom Travel 1.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/Skoleom Travel 1.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://skoleom.com/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/HOOLSY TAGGING TOOL.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/HOOLSY TAGGING TOOL.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.hoolsy.com/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/prime.png" alt="" >
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/prime.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.getprimelogic.com/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+ 
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Working with Zarban was an absolute pleasure! He delivered a stunning full-stack application that exceeded our expectations. His attention to detail and technical expertise made the entire development process smooth and efficient.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Sarah Johnson</h5>
+                            <span>Project Manager</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Zarban's ability to transform complex requirements into elegant solutions is remarkable. The web application he built for us is not only visually appealing but also performs flawlessly. Highly recommended!</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Michael Chen</h5>
+                            <span>CEO, Tech Solutions</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-5 fst-italic">Exceptional developer with a deep understanding of modern technologies. Zarban consistently delivered high-quality code on time and was always responsive to feedback. A true professional!</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Emily Rodriguez</h5>
+                            <span>Product Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">Location</p>
+                    <h3 class="fw-bold">Lahore, Pakistan</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+92 331 4907139</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">zarbanupwork@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="" target="_blank"><i class="fas fa-briefcase"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">Feel free to reach out! I'll get back to you as soon as possible.</p>
+                    <div id="formAlert" class="alert alert-success alert-dismissible fade" role="alert" style="display: none;">
+                        <span id="alertMessage"></span>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <form id="contactForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" name="message" placeholder="Leave a message here" id="message" style="height: 100px" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit" id="submitBtn">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark" style="position: relative;">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435519.27459341777!2d73.847465!3d31.5203696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e246d!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+                <div class="map-marker" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -100%); z-index: 10; pointer-events: none;">
+                    <svg width="40" height="50" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0C7.589 0 4 3.589 4 8C4 13.5 12 24 12 24C12 24 20 13.5 20 8C20 3.589 16.411 0 12 0Z" fill="#FF0000" stroke="#FFFFFF" stroke-width="2"/>
+                        <circle cx="12" cy="8" r="3" fill="#FFFFFF"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5" style="position: relative; overflow: hidden;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="text-primary mb-4">Zarban Khan</h4>
+                    <p class="mb-4">Full Stack Developer passionate about creating innovative, efficient, and user-friendly digital solutions. Specializing in modern web technologies and delivering high-quality projects.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light me-1" href="" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href="" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href="" target="_blank"><i class="fas fa-briefcase"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h5 class="text-primary mb-4">Quick Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="#home"><i class="fa fa-angle-right me-2"></i>Home</a>
+                        <a class="text-white-50 mb-2" href="#about"><i class="fa fa-angle-right me-2"></i>About</a>
+                        <a class="text-white-50 mb-2" href="#skill"><i class="fa fa-angle-right me-2"></i>Skills</a>
+                        <a class="text-white-50 mb-2" href="#service"><i class="fa fa-angle-right me-2"></i>Services</a>
+                        <a class="text-white-50 mb-2" href="#project"><i class="fa fa-angle-right me-2"></i>Projects</a>
+                        <a class="text-white-50 mb-2" href="#testimonial"><i class="fa fa-angle-right me-2"></i>Testimonial</a>
+                        <a class="text-white-50 mb-2" href="#contact"><i class="fa fa-angle-right me-2"></i>Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <h5 class="text-primary mb-4">Get In Touch</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3 text-primary"></i>Lahore, Punjab, Pakistan</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3 text-primary"></i>+92 331 4907139 </p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3 text-primary"></i>zarbanupwork@gmail.com</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="" target="_blank"><i class="fas fa-briefcase"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border-top border-secondary py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="text-primary" href="#">Zarban Khan</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <span class="text-white-50">Designed with <i class="fa fa-heart text-primary"></i> by <a class="text-primary" href="#">Zarban Khan</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+    <!-- EmailJS Library - Load First -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/index.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+    <!-- Contact Form Handler with EmailJS -->
+    <script>
+        // Wait for EmailJS to load
+        function initContactForm() {
+            // Initialize EmailJS
+            emailjs.init("sEAO7TxJlD0rXvQlQ");
+
+            const contactForm = document.getElementById('contactForm');
+            const formAlert = document.getElementById('formAlert');
+            const alertMessage = document.getElementById('alertMessage');
+            const submitBtn = document.getElementById('submitBtn');
+
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form data
+                const name = document.getElementById('name').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const subject = document.getElementById('subject').value.trim();
+                const message = document.getElementById('message').value.trim();
+
+                // Validate email format
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    showAlert('Please enter a valid email address.', 'danger');
+                    return;
+                }
+
+                // Validate all fields are filled
+                if (!name || !email || !subject || !message) {
+                    showAlert('Please fill in all fields.', 'danger');
+                    return;
+                }
+
+                // Disable submit button
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Sending...';
+
+                // Send email using EmailJS
+                const templateParams = {
+                    from_name: name,
+                    from_email: email,
+                    subject: subject,
+                    message: message
+                };
+
+                emailjs.send("service_p97yrgn", "template_k8ys9g7", templateParams)
+                    .then(function(response) {
+                        console.log('Email sent successfully!', response.status, response.text);
+                        showAlert('Thanks! Your message has been sent to zarbanupwork@gmail.com. I will reply soon!', 'success');
+                        contactForm.reset();
+                        
+                        // Re-enable submit button
+                        setTimeout(() => {
+                            submitBtn.disabled = false;
+                            submitBtn.textContent = 'Send Message';
+                        }, 2000);
+                    }, function(error) {
+                        console.log('Error sending email:', error);
+                        showAlert('Error sending message. Please try again or contact me directly at zarbanupwork@gmail.com', 'danger');
+                        
+                        // Re-enable submit button
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Send Message';
+                    });
+            });
+
+            function showAlert(message, type) {
+                alertMessage.textContent = message;
+                formAlert.className = `alert alert-${type} alert-dismissible fade show`;
+                formAlert.style.display = 'block';
+                
+                // Auto-hide after 5 seconds
+                setTimeout(() => {
+                    formAlert.style.display = 'none';
+                }, 5000);
+            }
+        }
+
+        // Initialize when document is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initContactForm);
+        } else {
+            initContactForm();
+        }
+    </script>
+</body>
+
+</html>
